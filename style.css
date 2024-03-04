@@ -1,0 +1,17 @@
+body{margin: 0 20%;}
+
+.pics{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image1 .image2 .image3 .image4{
+    border: 2px;
+    margin: auto;
+}
+
+.top-part {
+    display: flex;
+}
