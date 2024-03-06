@@ -12,11 +12,16 @@ body{margin: 0 20%;
 
 }
 
-.image1 .image2 .image3 .image4{
-    border: 2px;
-    border-color: aqua;
-    margin: 3px;
-    border-radius: 2em;
+.image1, .image2, .image3, .image4{
+    padding: 6px;
+    margin: 10px;
+    
+
+}
+
+div.pics img {
+    border: 2px solid blue;
+    border-radius: 1em;
 }
 
 .top-part {
@@ -25,17 +30,13 @@ body{margin: 0 20%;
     margin: 1px;
 }
 
-/*img {
-    margin: auto;
-    border: 3px;
-}*/
-
 .header {
 
     display: flex;
     align-items: center;
     border: 5px;
-    margin: 1px;
+    margin: 3px;
+    margin-bottom: 0px;
     color: white;
 }
 
@@ -75,11 +76,22 @@ body{margin: 0 20%;
 
 .last-part {
     display: flex;
+    align-items: center;
     background-color: blue;
-    margin: 50px;
+    margin: 25px;
+    padding: 5% 10% 5% 10%;
+    height: 70px;
+    border-radius: 1em;
+}
+
+.last h1{
+    font-size: 20px;
 }
 .last {
     color: white;
+    margin-right: auto;
+    border-radius: 1em;
+    
 }
 
 .first h1 {
@@ -89,12 +101,26 @@ body{margin: 0 20%;
 
 #sign {
     background-color: blue;
+    padding: 4px 8px;
+    border-radius: 1em;
 }
+
 
 .sign-up{
     color: white;
     text-align: center;
-    margin: 20px;
-    border: 5px;
+    margin: 5px;
+    padding: 8px 12px;
+    border: 2px solid;
     border-color: white;
+    font-size: 15px;
+    border-radius: 1em;
+
+}
+
+.almost{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
 }
